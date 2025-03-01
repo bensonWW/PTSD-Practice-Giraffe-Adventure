@@ -29,7 +29,12 @@ public:
 
     // TODO: Implement the collision detection
     [[nodiscard]] bool IfCollides(const std::shared_ptr<Character>& other) const {
-        (void) other;
+        if(other->GetPosition().x < this->GetScaledSize().x + this -> GetPosition().x &&
+            other->GetPosition().x > this -> GetPosition().x - this->GetScaledSize().x&&
+            other->GetPosition().y < this->GetScaledSize().y + this -> GetPosition().y&&
+            other->GetPosition().y > this -> GetPosition().y - this->GetScaledSize().y ) {
+            return true;
+        }
         return false;
     }
 

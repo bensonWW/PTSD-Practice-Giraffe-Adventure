@@ -25,7 +25,10 @@ public:
         auto temp = std::dynamic_pointer_cast<Util::Animation>(m_Drawable);
         temp->SetLooping(looping);
     }
-
+    void update() {
+        auto temp = std::dynamic_pointer_cast<Util::Animation>(m_Drawable);
+        temp->Play();
+    }
     [[nodiscard]] bool IfAnimationEnds() const;
 
 };
