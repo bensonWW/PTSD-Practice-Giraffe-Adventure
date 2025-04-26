@@ -1,0 +1,4 @@
+#ifndef ITEMOBJECT_HPP
+#define ITEMOBJECT_HPP
+
+#endif // ITEMOBJECT_HPP

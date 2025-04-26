@@ -1,0 +1,4 @@
+#ifndef BLOCKMANAGER_HPP
+#define BLOCKMANAGER_HPP
+
+#endif // BLOCKMANAGER_HPP

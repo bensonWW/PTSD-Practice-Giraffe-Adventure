@@ -1,0 +1,4 @@
+#ifndef BLACKTURTLE_HPP
+#define BLACKTURTLE_HPP
+
+#endif // BLACKTURTLE_HPP

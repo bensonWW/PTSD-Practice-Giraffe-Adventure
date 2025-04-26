@@ -1,0 +1,4 @@
+#ifndef OBJECTTYPE_HPP
+#define OBJECTTYPE_HPP
+
+#endif // OBJECTTYPE_HPP

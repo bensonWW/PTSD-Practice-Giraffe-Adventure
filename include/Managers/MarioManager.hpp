@@ -1,0 +1,4 @@
+#ifndef MARIOMANAGER_HPP
+#define MARIOMANAGER_HPP
+
+#endif // MARIOMANAGER_HPP

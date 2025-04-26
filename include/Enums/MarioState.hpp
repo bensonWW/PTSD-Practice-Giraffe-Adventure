@@ -1,0 +1,4 @@
+#ifndef MARIOSTATE_HPP
+#define MARIOSTATE_HPP
+
+#endif // MARIOSTATE_HPP

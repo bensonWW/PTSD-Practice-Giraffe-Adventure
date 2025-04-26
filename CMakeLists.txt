@@ -32,10 +32,102 @@ list(TRANSFORM INCLUDE_FILES PREPEND ${INCLUDE_DIR}/)
 # file(GLOB_RECURSE HEADER_FILES include/*)
 
 add_executable(${PROJECT_NAME}
-    ${SRC_DIR}/main.cpp
-    ${SRC_FILES}
-    ${HEADER_FILES}
+        App/main.cpp
+
+        # Header files
+        include/Object/Object.hpp
+        include/Object/IGravityObject.hpp
+        include/Object/ICollisionObject.hpp
+
+        include/Mario/Mario.hpp
+
+        include/Monsters/Monster.hpp
+        include/Monsters/Mushroom.hpp
+        include/Monsters/Turtle.hpp
+        include/Monsters/BlackTurtle.hpp
+        include/Monsters/FlyTurtle.hpp
+        include/Monsters/EatFlower.hpp
+        include/Monsters/Kooper.hpp
+        include/Monsters/JumpTurtle.hpp
+
+        include/Blocks/Block.hpp
+        include/Blocks/LuckyBlock.hpp
+        include/Blocks/FootBlock.hpp
+        include/Blocks/PipeBlock.hpp
+        include/Blocks/AirBlock.hpp
+        include/Blocks/OriginalBlock.hpp
+
+        include/Items/ItemObject.hpp
+        include/Items/CoinItem.hpp
+        include/Items/MushroomItem.hpp
+        include/Items/FireFlowerItem.hpp
+        include/Items/Fireball.hpp
+
+        include/Managers/SceneManager.hpp
+        include/Managers/GravityManager.hpp
+        include/Managers/CollisionManager.hpp
+        include/Managers/BlockManager.hpp
+        include/Managers/MonsterManager.hpp
+        include/Managers/ItemManager.hpp
+        include/Managers/MarioManager.hpp
+
+        include/Flags/Flag.hpp
+
+        include/Enums/ObjectType.hpp
+        include/Enums/MonsterType.hpp
+        include/Enums/BlockType.hpp
+        include/Enums/ItemType.hpp
+        include/Enums/MarioState.hpp
+        include/Enums/WayType.hpp
+
+        # Source files (.cpp)
+        src/Object/Object.cpp
+        src/Object/IGravityObject.cpp
+        src/Object/ICollisionObject.cpp
+
+        src/Mario/Mario.cpp
+
+        src/Monsters/Monster.cpp
+        src/Monsters/Mushroom.cpp
+        src/Monsters/Turtle.cpp
+        src/Monsters/BlackTurtle.cpp
+        src/Monsters/FlyTurtle.cpp
+        src/Monsters/EatFlower.cpp
+        src/Monsters/Kooper.cpp
+        src/Monsters/JumpTurtle.cpp
+
+        src/Blocks/Block.cpp
+        src/Blocks/LuckyBlock.cpp
+        src/Blocks/FootBlock.cpp
+        src/Blocks/PipeBlock.cpp
+        src/Blocks/AirBlock.cpp
+        src/Blocks/OriginalBlock.cpp
+
+        src/Items/ItemObject.cpp
+        src/Items/CoinItem.cpp
+        src/Items/MushroomItem.cpp
+        src/Items/FireFlowerItem.cpp
+        src/Items/Fireball.cpp
+
+        src/Managers/SceneManager.cpp
+        src/Managers/GravityManager.cpp
+        src/Managers/CollisionManager.cpp
+        src/Managers/BlockManager.cpp
+        src/Managers/MonsterManager.cpp
+        src/Managers/ItemManager.cpp
+        src/Managers/MarioManager.cpp
+
+        src/Flags/Flag.cpp
+
+        src/Enums/ObjectType.cpp
+        src/Enums/MonsterType.cpp
+        src/Enums/BlockType.cpp
+        src/Enums/ItemType.cpp
+        src/Enums/MarioState.cpp
+        src/Enums/WayType.cpp
 )
+
+
 
 if(MSVC)
     target_compile_options(${PROJECT_NAME} PRIVATE /W4)

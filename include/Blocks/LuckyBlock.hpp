@@ -1,0 +1,4 @@
+#ifndef LUCKYBLOCK_HPP
+#define LUCKYBLOCK_HPP
+
+#endif // LUCKYBLOCK_HPP

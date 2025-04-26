@@ -1,0 +1,4 @@
+#ifndef BLOCKTYPE_HPP
+#define BLOCKTYPE_HPP
+
+#endif // BLOCKTYPE_HPP

@@ -1,0 +1,4 @@
+#ifndef MUSHROOMITEM_HPP
+#define MUSHROOMITEM_HPP
+
+#endif // MUSHROOMITEM_HPP

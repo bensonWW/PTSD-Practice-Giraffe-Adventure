@@ -1,0 +1,4 @@
+#ifndef FOOTBLOCK_HPP
+#define FOOTBLOCK_HPP
+
+#endif // FOOTBLOCK_HPP

@@ -1,0 +1,4 @@
+#ifndef JUMPTURTLE_HPP
+#define JUMPTURTLE_HPP
+
+#endif // JUMPTURTLE_HPP

@@ -1,0 +1,4 @@
+#ifndef ITEMMANAGER_HPP
+#define ITEMMANAGER_HPP
+
+#endif // ITEMMANAGER_HPP

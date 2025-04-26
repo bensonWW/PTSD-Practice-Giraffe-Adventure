@@ -1,0 +1,4 @@
+#ifndef EATFLOWER_HPP
+#define EATFLOWER_HPP
+
+#endif // EATFLOWER_HPP

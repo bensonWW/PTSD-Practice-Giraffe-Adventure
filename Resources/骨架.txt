@@ -1,0 +1,59 @@
+include/
+│
+├── Object/
+│   ├── Object.hpp
+│   ├── IGravityObject.hpp
+│   ├── ICollisionObject.hpp
+│
+├── Mario/
+│   └── Mario.hpp
+│
+├── Monsters/
+│   ├── Monster.hpp
+│   ├── Mushroom.hpp
+│   ├── Turtle.hpp
+│   ├── BlackTurtle.hpp
+│   ├── FlyTurtle.hpp
+│   ├── EatFlower.hpp
+│   ├── Kooper.hpp
+│   └── JumpTurtle.hpp
+│
+├── Blocks/
+│   ├── Block.hpp
+│   ├── LuckyBlock.hpp
+│   ├── FootBlock.hpp
+│   ├── PipeBlock.hpp
+│   ├── AirBlock.hpp
+│   └── OriginalBlock.hpp
+│
+├── Items/
+│   ├── ItemObject.hpp
+│   ├── CoinItem.hpp
+│   ├── MushroomItem.hpp
+│   ├── FireFlowerItem.hpp
+│   └── Fireball.hpp
+│
+├── Managers/
+│   ├── SceneManager.hpp
+│   ├── GravityManager.hpp
+│   ├── CollisionManager.hpp
+│   ├── BlockManager.hpp
+│   ├── MonsterManager.hpp
+│   ├── ItemManager.hpp
+│   └── MarioManager.hpp
+│
+├── Flags/
+│   └── Flag.hpp
+│
+├── Enums/
+│   ├── ObjectType.hpp
+│   ├── MonsterType.hpp
+│   ├── BlockType.hpp
+│   ├── ItemType.hpp
+│   ├── MarioState.hpp
+│   └── WayType.hpp
+│
+└── Util/
+    ├── Renderer.hpp
+    ├── Timer.hpp
+    └── TimeUtil.hpp

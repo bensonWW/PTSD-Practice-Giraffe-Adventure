@@ -1,0 +1,4 @@
+#ifndef FLYTURTLE_HPP
+#define FLYTURTLE_HPP
+
+#endif // FLYTURTLE_HPP

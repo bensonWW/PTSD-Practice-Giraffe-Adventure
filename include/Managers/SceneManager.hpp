@@ -1,0 +1,4 @@
+#ifndef SCENEMANAGER_HPP
+#define SCENEMANAGER_HPP
+
+#endif // SCENEMANAGER_HPP

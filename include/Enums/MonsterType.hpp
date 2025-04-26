@@ -1,0 +1,4 @@
+#ifndef MONSTERTYPE_HPP
+#define MONSTERTYPE_HPP
+
+#endif // MONSTERTYPE_HPP

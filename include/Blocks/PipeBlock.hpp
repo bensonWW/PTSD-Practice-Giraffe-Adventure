@@ -1,0 +1,4 @@
+#ifndef PIPEBLOCK_HPP
+#define PIPEBLOCK_HPP
+
+#endif // PIPEBLOCK_HPP
